@@ -9,6 +9,17 @@ public class BookApp {
 
         b.getDisplayText();
         b.pricing(5);
+        System.out.println();
+
+        BookDB book = new BookDB("Java1001");
+
+        book.book();
+
+        BookDB book1 = new BookDB("Orcl1003");
+
+        book1.book();
+
+
 
     }
 }
